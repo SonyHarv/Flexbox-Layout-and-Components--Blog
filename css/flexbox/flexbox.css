@@ -1,3 +1,32 @@
+:root {
+    font-size: 16px;
+    --darkColor: #04001e;
+    --lightColor: #DFFBFF;
+    --primaryColor: #DB086F;
+}
+
 body {
-    background: red;
+    background: var(--darkColor);
+    color: var(--lightColor);
+    font-size: system-ui;
+}
+
+a {
+    color: var(--lightColor);
+}
+
+.wrapper {
+    /* border: 1px solid red; */
+    max-inline-size: 64rem;
+    margin: auto;
+}
+
+.box-content {
+    border: 5px dashed red;
+    padding: 1rem;
+    counter-increment: flex-items;
+}
+
+.box-content::after {
+    content: counter(flex-items);
 }
