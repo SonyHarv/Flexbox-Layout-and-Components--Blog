@@ -1,0 +1,7 @@
+.flexbox-content {
+    display: flex;
+}
+
+.flex-items:not(:first-child) {
+    margin-inline-start: 10rem;
+}

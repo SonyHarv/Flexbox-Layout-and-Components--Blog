@@ -1,3 +1,4 @@
+@import './display-flex.css';
 :root {
     font-size: 16px;
     --darkColor: #04001e;
@@ -21,12 +22,12 @@ a {
     margin: auto;
 }
 
-.box-content {
+.flex-items {
     border: 5px dashed red;
     padding: 1rem;
     counter-increment: flex-items;
 }
 
-.box-content::after {
+.flex-items::after {
     content: counter(flex-items);
 }
