@@ -2,6 +2,7 @@
     display: flex;
 }
 
-.flex-items:not(:first-child) {
+.flexbox-content .flex-items:not(:first-child) {
     margin-inline-start: 10rem;
+    /* border: 1px solid rgb(229, 255, 0); */
 }

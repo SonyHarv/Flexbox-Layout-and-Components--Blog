@@ -1,4 +1,6 @@
 @import './display-flex.css';
+@import './flex-order.css';
+@import './flex-direction.css';
 :root {
     font-size: 16px;
     --darkColor: #04001e;
@@ -23,6 +25,7 @@ a {
 }
 
 .flex-items {
+    /* margin-block-start: 1rem; */
     border: 5px dashed red;
     padding: 1rem;
     counter-increment: flex-items;

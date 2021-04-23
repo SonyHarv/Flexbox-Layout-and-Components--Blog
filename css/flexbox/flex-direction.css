@@ -1,0 +1,20 @@
+.flexDirection-content {
+    display: flex;
+    flex-direction: column-reverse;
+    max-block-size: 200px;
+    overflow: auto;
+}
+
+.flexDirection-content::-webkit-scrollbar {
+    inline-size: 10px;
+}
+
+.flexDirection-content::-webkit-scrollbar-thumb {
+    background: #a7a0a0;
+    border-radius: 4px;
+    block-size: 50px;
+}
+
+.flexDirection-content::-webkit-scrollbar-thumb:hover {
+    background: #606060;
+}
