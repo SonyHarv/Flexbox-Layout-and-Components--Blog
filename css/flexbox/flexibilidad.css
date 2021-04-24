@@ -11,4 +11,8 @@
 .flexibilidad-content>div {
     background: lightslategray;
     border: 1px solid red;
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%; */
+    flex: 1;
 }
