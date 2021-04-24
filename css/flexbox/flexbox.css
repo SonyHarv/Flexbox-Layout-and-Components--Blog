@@ -2,6 +2,7 @@
 @import './flex-order.css';
 @import './flex-direction.css';
 @import './flex-wrap.css';
+@import './flexibilidad.css';
 :root {
     font-size: 16px;
     --darkColor: #04001e;

@@ -1,0 +1,14 @@
+.flexibilidad-content {
+    display: flex;
+}
+
+.flexibilidad-content>img {
+    /* border: 1px solid red; */
+    inline-size: 25rem;
+    flex-shrink: 0;
+}
+
+.flexibilidad-content>div {
+    background: lightslategray;
+    border: 1px solid red;
+}
