@@ -1,8 +1,25 @@
 .flexbox-content {
     display: flex;
+    overflow: auto;
 }
 
 .flexbox-content .flex-items:not(:first-child) {
     margin-inline-start: 10rem;
     /* border: 1px solid rgb(229, 255, 0); */
+}
+
+.flexbox-content::-webkit-scrollbar {
+    /* border: 1px solid red; */
+    block-size: 10px;
+}
+
+.flexbox-content::-webkit-scrollbar-thumb {
+    /* border: 1px solid red; */
+    background: #a7a0a0;
+    border-radius: 4px;
+    /* block-size: 5px; */
+}
+
+.flexbox-content::-webkit-scrollbar-thumb:hover {
+    background: #606060;
 }

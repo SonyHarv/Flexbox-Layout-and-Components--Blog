@@ -4,6 +4,7 @@
 @import './flex-wrap.css';
 @import './flexibilidad.css';
 @import './justify-content.css';
+@import './align-items.css';
 :root {
     font-size: 16px;
     --darkColor: #04001e;
@@ -31,6 +32,7 @@ a {
     /* margin-block-start: 1rem; */
     border: 5px dashed red;
     padding: 1rem;
+    margin-block-end: 1rem;
     counter-increment: flex-items;
 }
 

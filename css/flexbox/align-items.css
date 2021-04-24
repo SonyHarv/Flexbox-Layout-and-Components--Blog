@@ -1,0 +1,19 @@
+.alignItems-content {
+    display: flex;
+    max-inline-size: 12.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.alignItems-content img {
+    inline-size: 6.25rem;
+}
+
+.alignItems-content img:nth-child(odd) {
+    align-self: flex-end;
+}
+
+.alignItems-content img:nth-of-type(1) {
+    align-self: center;
+    border-radius: 50%;
+}

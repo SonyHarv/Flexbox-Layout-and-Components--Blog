@@ -5,6 +5,10 @@
     overflow: auto;
 }
 
+.flexDirection-content div {
+    margin-inline-end: 0.625rem;
+}
+
 .flexDirection-content::-webkit-scrollbar {
     inline-size: 10px;
 }
